@@ -28,11 +28,10 @@
     border: 2px solid navajowhite;
 }
 .tea-house{
-    width: 628px;
+   max-width: 628px;
     height: 484px;
-    padding: 30px;
-    margin-left: 230px;
-    margin-top: 68.28px;
+    padding: 30px; margin: auto;
+    margin: auto;
     border: 2px solid darkblue;
     box-sizing: border-box;
 }
@@ -57,9 +56,9 @@
    color: #FFFFFF;
 }
 .gong-cha{
-    width: 655.04px;
+    max-width: 655.04px;
     height: 498.72px;
-    margin-right: 73.95px;
+    margin: auto;
     margin-top: 121.14px;
     position: relative;
     background-image: url(../images/banner.png);
@@ -70,7 +69,7 @@
     box-sizing: border-box;
 }
 .main-trast{
-    width: 255px;
+    max-width: 255px;
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -116,7 +115,7 @@
     border: 2px solid slateblue;
 }
 .featured{
-    width: 48%;
+   max-width: 80%;
     margin: 0 auto;
     border: 2px solid darkcyan;
     text-align: center;
@@ -134,12 +133,12 @@
     border: 2p;
 }
 .different-tea{
-    width: 63%;
+    max-width: 63%;
     height: 400px;
     display: flex;
     gap: 24px;
     margin-top: 50px;
-    margin-left: 330px;
+   margin: auto;
     border: 2px solid darkmagenta;
 }
 .milk{
@@ -232,13 +231,13 @@
 
 }
 .main-two-tea{
-    width: 28%;
+   max-width: 28%;
     height: 546px;
-    margin-left: 320px;
+  margin: auto;
     border: 2px solid red;
 }
 .main-green-tea{
-  width: 69%; 
+ max-width: 67%; 
   height: 522px;
  display: flex;
  gap: 20px;
@@ -290,7 +289,7 @@
     border: 2px solid blue;
 }
 .Great-Tea{
-    width: 30%;
+    max-width: 30%;
     height: 549px;
     border: 2px solid magenta;
 }
